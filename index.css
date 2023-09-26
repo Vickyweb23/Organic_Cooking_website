@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+ box-sizing:border-box;
+
+}
+.homeform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem  !important;
+}
+.homeform input{
+    height: 3rem !important;
+    margin: 1rem;
+}
+.homeform .btn{
+    height: 3rem !important;
+    /* margin: 2rem; */
+    width: 8rem;
+}
+#navbar{
+    position: sticky;
+  top: 0;  
+bottom: 0;
+z-index: 100;
+padding: .5rem .5rem;
+box-shadow: 5px 5px 20px rgba( 0, 0, 0,.5);
+background: black;
+}
+.navbar-brand{
+    font-size: 22px;
+    font-weight: 800;
+color: #29f700;
+}
+.navbar-nav a{
+    color: white;
+    border-bottom: solid 2px transparent;
+}
+.nav-item:hover  a{
+    border-bottom:solid 1px #29f700;
+
+    background: transparent green;
+
+}
+#btn{
+    
+                 background-color:#29f700; 
+                 border:solid black;                
+}
+#button:hover{
+    background-color: #29f700;
+    background: transparent green;
+
+}
+.img-fluid{
+    max-height: 55rem;
+    /* border-radius: 10%; */
+    width: 80%;
+}
+#home{
+    background:url(https://blog.organicolivia.com/wp-content/uploads/2021/10/Lesson-3-From-Traditional-Chinese-Medicine-Why-Do-Foods-Have-Flavors-scaled.jpg);
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+    width: 100wh;
+    background-size: cover;
+}
+#home .btn{
+    background-color: #29f700;
+    height: 35px;
+    background: transparent #29f700;
+    
+}
+#home h1{
+    font-size: 100px;
+color: white;
+text-shadow: 0px 1px 0px black,
+             0px 4px 0px orange;
+             
+}
+#home p{
+    font-size: 22px;
+    color: orange;
+    text-shadow: 2px 2px 6px black,
+                    2px 2px 6px;
+}
+#home input{
+    width: 30%;
+    height: 35px;
+}
+#about{
+ background: linear-gradient(to right,#ea1d6f,#ea1d6f 100%);   
+   /* width: 100%; */
+}
+.card-img-top{
+    border-radius: 10%;
+    padding-top: 1.5rem;
+}
+.card{
+    margin-left: 7rem !important;
+}
+.row{
+    padding-left: 1px!important;
+    margin: 0% !important;
+    padding: 2rem !important;
+}
+#about h1{
+text-align: center;
+justify-content: center;
+text-shadow:2px 2px 4px black,
+             0px 2px 0px AQUA; 
+}
+#about p{
+text-align: justify;
+overflow: hidden;
+color:white;
+}
+
+
+#product{
+    background:#e5e5e5;
+}
+#product h1{
+font-size: 50px;
+font-weight: 700;
+letter-spacing: 2px;
+}
+
+#product img{
+    width:200px;
+    height:250px;
+
+}
+.card{
+    height:350px;
+    width: 250px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    border-radius: 20px;
+    box-shadow: 15px 20px 20px rgba( 0, 0, 0,.3),
+               inset 4px 4px 10px white;
+ 
+                overflow: hidden;
+                justify-content: center;
+                align-items: center;
+ margin:20px
+}
+#product .btn{
+    background-color: #29f700;
+    height: 35px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.card:hover{
+    box-shadow: inset 5px 5px 5px 10px rgba( 0, 0, 0,.3),
+                inset -4px -4px 10px white;
+                transition: .2s;
+}
+.form{
+    display: flex;
+flex-direction: column;
+border:solid 2px greenyellow;
+margin: 5px;
+text-align: center;
+justify-content: center;
+position: relative;
+left: 52px;
+
+}
+#row img{
+    max-width: 100%;
+    margin-bottom: 3rem;
+}
+.form-control{
+    max-width: 100%;
+}
+#contact{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.form-control{
+    text-align: center;
+    justify-content:  center;
+}
+.form:hover{
+
+
+transition: .2s;
+border-radius: 20px;
+}
+.button{
+    border:solid 2px greenyellow;
+background: #29f700;
+text-align: center;
+align-items: center;
+width: 12rem !important;
+padding: 0.4rem;
+border-radius: 10px;
+/* position: relative;
+left: 82px;
+top:22px;
+padding: 3px 13px; */
+}
+.button:hover{
+    background-color: rgb(85, 68, 238);
+    border: none;
+    color: white;
+
+}
+#pass{
+    position: relative;
+    bottom: 2rem;
+    right: 4.5rem;
+    color: rgb(87, 60, 187);
+    border: black;
+}
+.fa-solid  {
+    position: relative;
+    bottom: 12.5rem;
+    right: 09rem;
+    color: rgb(87, 60, 187);
+    border: black;
+
+    font-weight: 500;
+}
+.fa-regular{
+    position: relative;
+    bottom: 2rem;
+    right: 4.6rem;
+    color: rgb(87, 60, 187);
+
+    font-weight: 500;
+}
+.fa-regular:hover{
+    color: wheat !important;
+}
+
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+    position:absolute;
+ left: 0;
+ right: 0;
+ 
+    background:black;
+    
+    height: 100%;
+    width: 100vw;
+    padding-top: 40px;
+    height: 22px;
+    background: #ea1d6f;
+   
+ 
+ }
+ 
+ .vicky h5{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+     text-align: center;
+ font-size: 33px;
+ color:#fff;
+ padding: 2px;
+ text-shadow:2px 2px 5px  red,
+             12px -3px 3px black;
+ justify-content:center;
+ font-weight:800;
+ text-transform: capitalize;
+ line-height: 3rem;
+ 
+ 
+ }
+ 
+ .media {
+     display: flex;
+     align-items: center;
+     text-decoration-style: none;
+  
+  
+     justify-content: center;
+     list-style: none;
+     
+ 
+ }
+ .media  li{
+ margin: 0 10px;
+     padding: 2px;
+ }
+ .media   a{
+     align-items: center;
+     border-radius: 50%;
+     border: 1px solid green;
+     padding:5px ;
+ 
+ 
+ }
+ .media a li{
+  font-size: 1.1rem;
+  width: 20px;
+ }
+ .media li a {
+  margin: 35px auto;
+     color:#b81616;
+     list-style: none;
+     padding: 15px;
+     box-shadow: -2px 3px ,
+                     3px 3px 5px aqua;
+ 
+     overflow-y: hidden;
+     
+ }
+ 
+ .media li a:hover i{
+     color: rgb(149, 23, 71);
+     display: inline;
+     flex-direction: row;
+ }
+ 
+ 
+ 
+.all-fotter{
+background-color: #b81616;
+/* height: 24rem; */
+display: flex;
+font-size: 1rem;
+color: white;
+width: 100% ;
+flex-wrap: wrap;
+@media screen and (max-width:600px) {
+   
+        align-items: center;
+        justify-content: center;
+        background-color: #40493f;
+    
+}
+}
+
+.all-fotter ul li{
+    list-style: none;
+    margin-top: 2rem;
+    margin-left: 4rem;
+
+}
+
+#needbigfont{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: 500;
+    color: aqua;
+}
+.Our-Services{
+    text-align: center;
+    max-height: 8rem;
+    justify-content: center;
+    align-items: center;
+    color: rgb(22, 24, 24);
+    background-color: #a7bba5;
+}
+.typeemail .form-control{
+    height: 4.5rem ;
+}
+.typeemail{
+    margin-top: 2rem;
+    margin-left: 4.3rem;
+}
+.typeemail label{
+    margin-top: 3rem;
+    width: 100% ;
+    height: 4rem !important;
+    @media screen and (max-width:600px) {
+        margin-left: 1rem !important;
+        position: relative;
+
+        
+    }
+}
+.typeemail .fa-brands{
+    position: relative;
+    bottom:4rem;
+    left: 21rem;
+    color: #4eb81a;
+    font-size: 4.5rem;
+    border: none !important;
+    border-radius: 10px !important;
+    @media screen and (max-width:600px) {
+        margin-right: 6.5rem;
+        /* background-color: #ea1d6f; */
+        
+    }
+}
+/* .fa-brands{
+    @media screen and (max-width:600px) {
+        margin-right: 2rem !important;
+    }
+} */
